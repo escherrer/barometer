@@ -1,6 +1,24 @@
 # Build Folders (you can keep bin if you'd like, to store dlls and pdbs)
-bin
-obj
+[Oo]bj
+[Bb]in
+*.[Cc]ache
 
 # mstest test results
 TestResults
+
+#Visual Studio files
+*.suo
+*.user
+*.suo
+*.[Cc]ache
+*.bak
+*.ncb
+*.log 
+*.DS_Store
+
+#OS files
+[Tt]humbs.db 
+
+#ReSharper files
+_ReSharper.*
+*.resharper
