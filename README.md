@@ -2,4 +2,5 @@ barometer
 =========
 
 
-foo
+foo2
+
