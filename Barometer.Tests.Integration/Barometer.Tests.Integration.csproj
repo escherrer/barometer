@@ -46,7 +46,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="Ec2.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Barometer.Contracts\Barometer.Contracts.csproj">
+      <Project>{A2B11AAA-8D3D-490C-901E-A46DEAB9D3CA}</Project>
+      <Name>Barometer.Contracts</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
