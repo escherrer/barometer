@@ -41,10 +41,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Engine\ITaskProcessor.cs" />
+    <Compile Include="Manager\IReportManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Service\ITaskManager.cs" />
+    <Compile Include="Manager\ITaskManager.cs" />
+    <Compile Include="ResourceAccess\IInfrastructureResourceAccess.cs" />
+    <Compile Include="ResourceAccess\IScheduleResourceAccess.cs" />
+    <Compile Include="ResourceAccess\ITaskResourceAccess.cs" />
+    <Compile Include="Manager\Schedule\InvokeScheduledTasks.cs" />
+    <Compile Include="Manager\Schedule\ScheduleTask.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
