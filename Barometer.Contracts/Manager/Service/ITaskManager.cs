@@ -1,4 +1,4 @@
-﻿namespace Barometer.Contracts.TaskManager
+﻿namespace Barometer.Contracts.Manager.Service
 {
     public interface ITaskManager
     {

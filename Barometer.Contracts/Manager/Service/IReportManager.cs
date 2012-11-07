@@ -1,4 +1,4 @@
-﻿namespace Barometer.Contracts.Manager
+﻿namespace Barometer.Contracts.Manager.Service
 {
     public interface IReportManager
     {

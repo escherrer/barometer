@@ -1,4 +1,4 @@
-﻿namespace Barometer.Contracts.Engine
+﻿namespace Barometer.Contracts.Engine.Service
 {
     public interface ITaskProcessor
     {

@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barometer.TaskManagement", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barometer.Client", "Barometer.Client\Barometer.Client.csproj", "{8042FFC2-1C4C-4CC3-945A-4D606EAF1215}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barometer.Host.Common", "Barometer.Host.Common\Barometer.Host.Common.csproj", "{644BC5C7-19ED-49D5-AE35-4EFD8FF9F3DE}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barometer.Tests.Unit", "Barometer.Tests.Unit\Barometer.Tests.Unit.csproj", "{55E251B5-CACD-4A0F-843C-A45F7BEC15A4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DD02BAB5-407C-4C68-9D85-1FDBE88E79CA}"
@@ -19,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barometer.Tests.Integration", "Barometer.Tests.Integration\Barometer.Tests.Integration.csproj", "{828DD181-94A8-46CE-A3BA-65103F0137CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barometer.ScheduleManagement", "Barometer.ScheduleManagement\Barometer.ScheduleManagement.csproj", "{0BBBF5FC-5F85-49DB-ADA5-FD28C8112404}"
 EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
@@ -63,16 +63,6 @@ Global
 		{8042FFC2-1C4C-4CC3-945A-4D606EAF1215}.Release|Mixed Platforms.Build.0 = Release|x86
 		{8042FFC2-1C4C-4CC3-945A-4D606EAF1215}.Release|x86.ActiveCfg = Release|x86
 		{8042FFC2-1C4C-4CC3-945A-4D606EAF1215}.Release|x86.Build.0 = Release|x86
-		{644BC5C7-19ED-49D5-AE35-4EFD8FF9F3DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{644BC5C7-19ED-49D5-AE35-4EFD8FF9F3DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{644BC5C7-19ED-49D5-AE35-4EFD8FF9F3DE}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{644BC5C7-19ED-49D5-AE35-4EFD8FF9F3DE}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{644BC5C7-19ED-49D5-AE35-4EFD8FF9F3DE}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{644BC5C7-19ED-49D5-AE35-4EFD8FF9F3DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{644BC5C7-19ED-49D5-AE35-4EFD8FF9F3DE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{644BC5C7-19ED-49D5-AE35-4EFD8FF9F3DE}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{644BC5C7-19ED-49D5-AE35-4EFD8FF9F3DE}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{644BC5C7-19ED-49D5-AE35-4EFD8FF9F3DE}.Release|x86.ActiveCfg = Release|Any CPU
 		{55E251B5-CACD-4A0F-843C-A45F7BEC15A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{55E251B5-CACD-4A0F-843C-A45F7BEC15A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55E251B5-CACD-4A0F-843C-A45F7BEC15A4}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
@@ -93,6 +83,16 @@ Global
 		{828DD181-94A8-46CE-A3BA-65103F0137CB}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{828DD181-94A8-46CE-A3BA-65103F0137CB}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{828DD181-94A8-46CE-A3BA-65103F0137CB}.Release|x86.ActiveCfg = Release|Any CPU
+		{0BBBF5FC-5F85-49DB-ADA5-FD28C8112404}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BBBF5FC-5F85-49DB-ADA5-FD28C8112404}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BBBF5FC-5F85-49DB-ADA5-FD28C8112404}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{0BBBF5FC-5F85-49DB-ADA5-FD28C8112404}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{0BBBF5FC-5F85-49DB-ADA5-FD28C8112404}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0BBBF5FC-5F85-49DB-ADA5-FD28C8112404}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BBBF5FC-5F85-49DB-ADA5-FD28C8112404}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BBBF5FC-5F85-49DB-ADA5-FD28C8112404}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{0BBBF5FC-5F85-49DB-ADA5-FD28C8112404}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{0BBBF5FC-5F85-49DB-ADA5-FD28C8112404}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

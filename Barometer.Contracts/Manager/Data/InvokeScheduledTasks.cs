@@ -1,4 +1,4 @@
-﻿namespace Barometer.Contracts.Manager.Schedule
+﻿namespace Barometer.Contracts.Manager.Data
 {
     public class InvokeScheduledTasks
     {

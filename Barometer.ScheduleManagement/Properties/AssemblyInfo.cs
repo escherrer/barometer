@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Barometer.Host.Common")]
+[assembly: AssemblyTitle("Barometer.ScheduleManagement")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Barometer.Host.Common")]
+[assembly: AssemblyProduct("Barometer.ScheduleManagement")]
 [assembly: AssemblyCopyright("Copyright ©  2012")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("98c87eef-4d7b-4deb-aa18-8301843a5193")]
+[assembly: Guid("827cb740-2a8c-45ad-82df-774ed45c376a")]
 
 // Version information for an assembly consists of the following four values:
 //

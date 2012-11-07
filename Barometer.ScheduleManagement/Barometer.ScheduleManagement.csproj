@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{644BC5C7-19ED-49D5-AE35-4EFD8FF9F3DE}</ProjectGuid>
+    <ProjectGuid>{0BBBF5FC-5F85-49DB-ADA5-FD28C8112404}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Barometer.Host.Common</RootNamespace>
-    <AssemblyName>Barometer.Host.Common</AssemblyName>
+    <RootNamespace>Barometer.ScheduleManagement</RootNamespace>
+    <AssemblyName>Barometer.ScheduleManagement</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

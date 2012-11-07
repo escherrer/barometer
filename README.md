@@ -35,9 +35,21 @@ OF ANY KIND, either express or implied. See the License for the
 specific language governing permissions and limitations under the 
 License.
 
-
 Note: Other license terms may apply to certain, identified software files contained within or distributed with the accompanying software if such terms are included in the directory containing the accompanying software. Such other license terms will then apply in lieu of the terms of the software license above.
 
+****************************************
+
+NServiceBus
+
+NServiceBus source and/or binaries is governed by the Reciprocal Public License 1.5 (RPL1.5) license as described here: 
+
+http://www.opensource.org/licenses/rpl1.5.txt
+
+If you do not wish to release the source of software you build using NServiceBus, you may use NServiceBus source and/or binaries under the NServiceBus Express End User License Agreement as described here:
+
+http://www.nservicebus.com/EULA.aspx
+
+****************************************
 
 
 
