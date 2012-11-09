@@ -11,6 +11,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Barometer.Contracts.Manager.Data;
 
 namespace Barometer.Client
 {
@@ -22,6 +23,11 @@ namespace Barometer.Client
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            App.Bus.Send(new CreateTaskCommand());
         }
     }
 }

@@ -7,9 +7,11 @@ namespace Barometer.Client
     /// </summary>
     public partial class App
     {
+        public static IBus Bus { get; private set; }
+
         public App()
         {
-            Configure.With()
+            Bus = Configure.With()
                 .DefaultBuilder()
                 .Log4Net()  
                 .XmlSerializer()

@@ -104,6 +104,12 @@
     </None>
     <AppDesigner Include="Properties\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Barometer.Contracts\Barometer.Contracts.csproj">
+      <Project>{A2B11AAA-8D3D-490C-901E-A46DEAB9D3CA}</Project>
+      <Name>Barometer.Contracts</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
